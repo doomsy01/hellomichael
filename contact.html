@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Michael</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Page</h2>
+        <p>You can reach me via email at: <a href="mailto:redacted@students.natonal-u.edu.ph">redacted@students.natonal-u.edu.ph</a></p>
+        <p>Or use the form below:</p>
+        <p>Status: Currently unavaliable</p>
+	    <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name">
+            <br><br>
+    		<label for="email">Email:</label>
+    		<input type="email" id="email" name="email">
+            <br><br>
+		    <label for="message">Message:</label><br>
+    		<textarea id="message" name="message" cols="33" rows="4"></textarea>
+            <br></br>
+    		<button type="submit">Submit</button>
+	</form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Michael</p>
+    </footer>
+</body>
+</html>

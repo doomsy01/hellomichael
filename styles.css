@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: gray;
 }
 
 /* Header */
 header {
-    background-color: #5b7282;
+    background-color: #444;
     color: white;
     padding: 10px;
     text-align: center;
@@ -70,6 +70,7 @@ main h2 {
     color: #333;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
 /* gallery */
 div.gallery {

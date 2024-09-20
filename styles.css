@@ -51,6 +51,7 @@ nav ul li a:hover {
 /* Main Content */
 main {
     padding: 20px;
+    color: white;
 }
 
 .status{
@@ -66,8 +67,8 @@ main {
 }
 
 main h2 {
-    text-shadow: 2px 2px #878686;
-    color: #333;
+    text-shadow: 2px 2px #a09d9d;
+    color: white;
     font-weight: bold;
     text-decoration: underline;
     text-align: center;
